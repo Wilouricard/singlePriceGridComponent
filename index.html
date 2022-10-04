@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-Light-Gray">
+    <main class="w-5/6 flex flex-col md:w-1/2">
+      <div class="bg-white flex flex-col py-8 px-5 rounded-t-lg gap-5">
+        <h1 class="font-bold text-Cyan text-2xl">Join our community</h1>
+        <p class="text-Bright-Yellow font-bold">
+          30-day, hassle-free money back guarantee
+        </p>
+        <p class="text-Grayish-Blue font-normal">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="md:flex">
+        <div class="bg-Cyan flex flex-col py-8 px-5 gap-5 md:rounded-bl-lg md:w-1/2">
+          <h1 class="text-2xl font-bold text-Light-Gray">Monthly Subscription</h1>
+          <div class="flex gap-4">
+           <p class="text-Light-Gray text-4xl font-bold">&dollar;29</p> 
+           <p class="mt-2 text-Light-Gray font-normal">per month</p>
+          </div>
+          <p class="text-Light-Gray">Full access for less than &dollar;1 a day</p>
+          <button class="bg-Bright-Yellow rounded-md py-4 w-full text-Light-Gray text-2xl shadow-lg active:shadow-xl active:shadow-Bright-Yellow">Sign Up</button>
+        </div>
+        <div class="bg-Cyan opacity-80 flex flex-col py-8 px-5 rounded-b-lg gap-5 md:rounded-br-lg md:rounded-b-none md:w-1/2">
+          <h1 class="text-2xl font-bold text-Light-Gray">Why Us</h1>
+          <div class="flex flex-col text-Light-Gray">
+            <p>Tutorials by industry experts</p>
+            <p>Peer &amp; expert code review</p>
+            <p>Coding exercises</p>
+            <p>Access to our GitHub repos</p>
+            <p>Community forum</p>
+            <p>Flashcard decks</p>
+            <p>New videos every week</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  </body>
+</html>
